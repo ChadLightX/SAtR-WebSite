@@ -84,6 +84,8 @@ Si gestion d'évènements alors création d'une base de donnée solide.
 
 API Challonge + Google Tab pour les classements par saison sur Paris ou sur Marseille 
 
+API Discord pour la redirection de lien vers ce dernier ou le besoin en information de celui ci
+
 Frontend en CSS
 
 Backend via un Framework (sans doute React.js, Riot.js voir en Type Script)
