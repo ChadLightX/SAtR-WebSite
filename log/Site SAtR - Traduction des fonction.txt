@@ -1,0 +1,76 @@
+Site SAtR - Traduction des fonctionnalités
+
+Phase 1 
+Toutes les pages:
+-Il faut que l'utilisateur puisse remonter tout en haut d'une page sans utiliser la molette d'une souris (flèche vers le haut)
+-Il faut que l'utilisateur ne soit pas perdu lorsqu'il navigue sur le site web
+-Il faut que l'utilisateur puisse accéder au haut et bas de page sur n'importe quel site et qu'ils soient identiques
+Page d'accueil
+-Il faut que l'utilisateur puisse accéder au serveur discord de Sun After the Reign après avoir appuyé sur un bouton
+-L'utilisateur doit pouvoir voir des vidéos représentant SAtR en arrière plan
+(Page d'inscription)
+(Page de connexion)
+Page Qui sommes-nous
+-Il faut que l'utilisateur prenne conscience de l'association et de ses activités de manière simple et concise
+-Il faut que l'utilisateur puisse identifier les membres de l'association et ses partenaires
+-(Facultatif), des statistiques clés devront permettre de représenter SAtR
+Page Nos évènements
+-Il faut que l'utilisateur puisse accéder aux vidéos rediffusion en cliquant sur la vidéo plutôt que sur un lien
+-Il faut que l'utilisateur puisse accéder au calendrier des évènements en parcourant cette page
+-Il faut que l'utilisateur puisse s'inscrire aux prochains évènements de SAtR en cliquant sur un bouton
+Page Carte de France
+-Il faut que l'utilisateur puisse parcourir la carte de la France à l'instar de Google Maps
+-Il faut que l'utilisateur puisse repérer les différentes communautés de France via des repères
+-Il faut que l'utilisateur, lorsqu'il clique sur un repère, puisse connaitre l'ensemble des communautés locales
+-Il faut que l'utilisateur, lorsqu'il clique sur une communauté, puisse accéder à ses informations
+Page Classement
+-Il faut que l'utilisateur puisse accéder aux classements actuels même en cas de mise à jour
+-Il faut que l'utilisateur puisse accéder aux classements entièrement en appuyant sur un bouton
+-Il faut que l'utilisateur puisse accéder aux classements des saisons précédentes via un bouton switch
+Header
+-Il faut que l'utilisateur puisse accéder à toutes les pages principales du site SAtR
+-Il faut que lorsque que l'utilisateur, lorsqu'il clique sur le logo SAtR, qu'il soit redirigé vers la page d'accueil
+Footer
+-Il faut que l'utilisateur puisse accéder aux réseaux de l'association en cliquant sur les icones des réseaux
+-Il faut que l'utilisateur puisse accéder aux questions de confidentialité, de mention légale et de charte graphique
+-Il faut que l'utilisateur puisse nous contacter en accédant au footer
+
+Phase 2
+V1:
+Toutes les pages:
+-Fleche pour remonter en haut de page
+-UI/UX Simple et Clair
+-Header et Footer universel
+
+Header
+-Toutes les pages accessibles
+-Logo qui redirige vers la page d'accueil
+
+Footer
+-Icone réseaux qui redirige vers les réseaux
+-Politique de confidentialité, de mention légale et de charte graphique présente
+-Possibilité de contact
+
+Page d'accueil
+-Bouton redirigeant vers l'invitation du Discord
+-vidéos représentant SAtR dans le background
+(Page d'inscription)
+(Page de connexion)
+
+Page Qui sommes-nous
+-Présentation de l'association, de l'activité, des membres et des partenaires de manière simple et concise
+-(Facultatif), des statistiques clés devront permettre de représenter SAtR
+
+V2:
+Page Nos évènements
+-Rediffusion accessible sur le site web
+-Calendrier des évents qui peut permettre de s'inscrire également aux futurs évents
+
+Page Carte de France
+-Carte de France accessible et parcourable facilement
+-Repère interactif
+-Organisme/communauté lisible et accessible
+
+Page Classement
+Classement visible, entièrement accessible via un bouton et interchangeable via un switch
+

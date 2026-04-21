@@ -1,0 +1,51 @@
+Site Sun After the Reign:
+
+Pourquoi faire un site:
+1- Mettre en avant l'association Sun After The Reign
+2- Avoir la possibilité de communiquer plus facilement entre l'association et ses particuliers
+3- Poster une carte de visite en ligne en valorisant ses activités et ses services
+
+Idée du site (brainstorming du site web):
+-Page d'accueil
+	-Présentation globale du site
+	-Lien en bas de page pour:
+		-La charte Graphique
+		-La FAQ
+		-Les mentions légales
+		-Les moyens de contacts de l'association
+		-Les différents liens des réseaux sociaux de l'association
+-Page Qui Sommes-nous
+-Page Nous contacter
+-Page Prochains évènements
+-Page de Ticketing (envoyeur)
+-3 différents comptes:
+	-Compte utilisateur
+	-Compte Administrateur
+		-Gestion des comptes
+		-Résolution des problèmes du site
+		-Page de ticketing (receveur) 
+		-Mise à jour du site web
+	-Compte membre SAtR
+		-Ajout des prochains évènements
+		-Mise à jour du classement
+-Page Classement par saison (API Challonge + Google Tab)
+-Page Carte de France avec toutes les associations/prochain tournois
+-Page Agenda de combo
+-Page Anciens évènements
+-Page de merchandising pour les ventes de produits
+-Mode Portable du site web
+
+Le tout doit respecté les closes de sécurité établi par la CNIL et doit avoir un nom de domaine valide.
+
+Aspect Technique du site
+Si gestion des utilisateurs alors création d'une base de donnée solide.
+Si gestion d'évènements alors création d'une base de donnée solide.
+API Challonge + Google Tab pour les classements par saison sur Paris ou sur Marseille 
+Frontend en CSS
+Backend via un Framework (sans doute React.js, Riot.js voir en Type Script)
+Index en html pour avoir la base de la page d'accueil du site 
+Le Backend doit pouvoir faire le lien entre la base de données et le site
+Le Frontend doit pouvoir afficher le contenu des requêtes du site
+
+
+

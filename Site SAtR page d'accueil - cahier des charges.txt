@@ -1,0 +1,10 @@
+Site SAtR page d'accueil - cahier des charges
+-Site fonctionnel sans aucune erreur
+-Site lisible 
+-Bouton pour remonter vers le haut du site
+-Bouton pour acceder au serveur discord
+-icone cliquable pour accéder aux réseaux sociaux
+-Api X, Instagram et Tiktok pour voir les dernières publications
+-Zone vide niveau évènement qui sera géré en PHP pour l'affichages des prochains évènements
+-Bouton pour rediriger vers "Qui sommes nous"
+-Icone du site cliquable pour accéder à la page d'accueil du site

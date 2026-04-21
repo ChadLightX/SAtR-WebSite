@@ -1,0 +1,28 @@
+Site SAtR - Cahier des charges:
+V1:
+Toutes les pages:
+-Fleche pour remonter en haut de page
+-UI/UX Simple et Clair
+-Header et Footer universel
+
+Header
+-Toutes les pages accessibles
+-Logo qui redirige vers la page d'accueil
+
+Footer
+-Icone réseaux qui redirige vers les réseaux
+-Politique de confidentialité, de mention légale et de charte graphique présente
+-Possibilité de contact
+
+Page d'accueil
+-Bouton redirigeant vers l'invitation du Discord
+-vidéos représentant SAtR dans le background
+
+Page Qui sommes-nous
+-Présentation de l'association, de l'activité, des membres et des partenaires de manière simple et concise
+-(Facultatif), des statistiques clés devront permettre de représenter SAtR
+
+HTML/CSS/JS
+TS
+Python (Django/FastAPI)
+
