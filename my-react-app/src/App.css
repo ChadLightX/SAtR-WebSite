@@ -1,5 +1,69 @@
-body {
-  background-color: #A9EDC4;
-  font-family: Arial;
-  text-align: center;
+.imgHorizontal {
+    width: 100%;
+    height: auto;
+}
+
+#core {
+  border: 2px;
+  border-radius: 0.5em;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+
+#core section{
+  display: inline-block;
+  margin: 50px;
+}
+
+#core section button{
+  background-color: #F2B552;
+  border-radius: 2em;
+  border: 0px;
+  margin: 20px; 
+  padding: 10px;
+}
+
+#gallery {
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+}
+
+#gallery article {
+    margin: 0;
+    flex-basis: 50%;
+}
+
+#gallery img {
+    width: 100%;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+    display: block;
+}
+
+.TitleSection {
+    text-align: center;
+    padding: 50px;
+}
+
+button{
+  font-family: inherit;
+}
+
+.App{
+  margin:0px;
+  padding:0px;
+}
+
+#postDiv{
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+
+#postDiv section{
+  margin: 50px;
 }
