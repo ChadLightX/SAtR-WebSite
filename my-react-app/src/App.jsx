@@ -5,7 +5,7 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App" style={{backgroundColor: '#A9EDC4'}}>
+    <div className="App">
       <Header/>
       <Body/>
       <Footer/>
