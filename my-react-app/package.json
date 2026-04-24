@@ -2,7 +2,7 @@
   "name": "satr-website",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://github.com/ChadLightX/SAtR-WebSite",
+  "homepage": "https://ChadLightX.github.io/SAtR-WebSite/",
   "type": "module",
   "scripts": {
     "dev": "vite",

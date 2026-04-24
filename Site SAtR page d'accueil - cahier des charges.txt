@@ -1,13 +1,25 @@
 Site SAtR page d'accueil - cahier des charges
--Site responsive qui devra respecter les normes de lisibilité et d'accessibilité en web
--Site lisible 
--Bouton pour remonter vers le haut du site
--Bouton pour accéder au serveur discord
--icone cliquable pour accéder aux réseaux sociaux
--Zone vide niveau évènement qui sera géré en PHP pour l'affichages des prochains évènements
--Bouton pour rediriger vers "Qui sommes nous"
--Icone du site cliquable pour accéder à la page d'accueil du site
--Le Header doit être fixé tout en haut de l'écran et toujours visible quand on parcourt le site
+-Site responsive qui devra respecter les normes de lisibilité et d'accessibilité en web: Not Done
+-Site lisible: Kinda finisshed
+-Bouton pour remonter vers le haut du site: Done
+-Bouton pour accéder au serveur discord: Done
+-icone cliquable pour accéder aux réseaux sociaux: Done 
+-Zone vide niveau évènement qui sera géré en PHP pour l'affichages des prochains évènements: Later
+-Bouton pour rediriger vers "Qui sommes nous": Not Done
+-Icone du site cliquable pour accéder à la page d'accueil du site: Done
+-Le Header doit être fixé tout en haut de l'écran et toujours visible quand on parcourt le site: Done
 Pour Qui?
 Par Qui?
 Pourquoi?
+
+Header
+ Contenu: V
+ CSS: V
+Body:
+ image: V
+ Event: V
+ Réseaux: V
+ Discord: V
+Footer
+ Contenu: V
+ CSS: V
