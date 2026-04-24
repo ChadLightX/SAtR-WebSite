@@ -5,10 +5,10 @@ import './App.css';
 /*Fichier react coeur du site, il affichera les différentes pages du site web de l'association. */
 function App() {
   return (
-    <div className="App">
+    <div id="App">
       <Header/>
       <Body/>
-      <a href="#Header">
+      <a href="#App">
         <img src="./images/icones/upbutton.png" id="fixedButton" alt="bouton du haut"/>
       </a>
       <Footer/>
