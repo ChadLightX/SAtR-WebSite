@@ -18,11 +18,11 @@ function Body(){
                     en région parisienne et marseillaise.</p>
                 </section>
                 <section>
-                    <img src="/images/toupies/BX-01-Dran-Sword-Beyblade-Shop_1200x1200.png" alt="DranSword" width="200" height="200"/>
+                    <img src="./images/toupies/BX-01-Dran-Sword-Beyblade-Shop_1200x1200.png" alt="DranSword" width="200" height="200"/>
                     <a href="https://www.tiktok.com/@sunafterthereign?lang=fr" target="_blank">
                         <button><strong>Découvrez Sun After the Reign</strong></button>
                     </a>
-                    <img src="/images/toupies/BX-02-Hells-Scythe-Beyblade-Shop_jpg_1024x1024.png" alt="HellsScythe" width="200" height="200"/>
+                    <img src="./images/toupies/BX-02-Hells-Scythe-Beyblade-Shop_jpg_1024x1024.png" alt="HellsScythe" width="200" height="200"/>
                 </section>  
             </div>
 
@@ -38,28 +38,28 @@ function Body(){
                     participer à nos événements et rester informé de toutes nos actualités en temps réel.</p>
                 </section>
                 <section>
-                    <img src="/images/toupies/Knight-Shield-BX04-Beyblade-Shop_480x480.png" alt="KnightShield" width="200" height="200"/>
+                    <img src="./images/toupies/Knight-Shield-BX04-Beyblade-Shop_480x480.png" alt="KnightShield" width="200" height="200"/>
                     <a href="https://discord.com/invite/afEvCBF9XR" title="lien serveur discord Sun After the Reign" target="_blank">
                         <button id='discord'>
                             Rejoindre le serveur Discord
-                            <img src="/images/icones/Discord_Logo_sans_texte.svg.png" alt="icone discord" width="25" height="25"/>
+                            <img src="./images/icones/Discord_Logo_sans_texte.svg.png" alt="icone discord" width="25" height="25"/>
                         </button>
                     </a>
-                    <img src="/images/toupies/Wizard-Arrow-BX03-Beyblade-Shop_1200x1200.png" alt="WizardArrow" width="200" height="200"/>
+                    <img src="./images/toupies/Wizard-Arrow-BX03-Beyblade-Shop_1200x1200.png" alt="WizardArrow" width="200" height="200"/>
                 </section>
             </div>
 
             <section>
                 <h1 className='TitleSection'>Découvrez l'ambiance de nos évènements</h1>
                 <div id="gallery">
-                    <article><img className='imgVertical' src="/images/photos/FTA00248.jpg" alt="BBT#15-27/07/25"/></article>
-                    <article><img className='imgVertical' src="/images/photos/FTA00783.jpg" alt="BBT#20-25/01/26" /></article>
-                    <article><img className='imgVertical' src="/images/photos/FTA09191.jpg" alt="UFA#25-14/09/25"/></article>
-                    <article><img className='imgVertical' src="/images/photos/FTA08608.jpg" alt="BBT#17-20/07/25"/></article>
+                    <article><img className='imgVertical' src="./images/photos/FTA00248.jpg" alt="BBT#15-27/07/25"/></article>
+                    <article><img className='imgVertical' src="./images/photos/FTA00783.jpg" alt="BBT#20-25/01/26" /></article>
+                    <article><img className='imgVertical' src="./images/photos/FTA09191.jpg" alt="UFA#25-14/09/25"/></article>
+                    <article><img className='imgVertical' src="./images/photos/FTA08608.jpg" alt="BBT#17-20/07/25"/></article>
                 </div>
                 <div>
-                    <img className='imgHorizontal' src="/images/photos/FTA08832.jpg" alt="BBT#18-23/11/25"/>
-                    <img className='imgHorizontal' src="/images/photos/IMG_0949.jpg" alt="Podium BBTM #13"/>
+                    <img className='imgHorizontal' src="./images/photos/FTA08832.jpg" alt="BBT#18-23/11/25"/>
+                    <img className='imgHorizontal' src="./images/photos/IMG_0949.jpg" alt="Podium BBTM #13"/>
                 </div>
             </section>
             

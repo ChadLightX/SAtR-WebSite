@@ -5,8 +5,8 @@
  */
 function SAtREvents(){
     let events=[ //tableau qui contient les informations des évènements dans un dictionnaire: l'id de l'évènement, son nom, son affiche, sa date et son lieu
-        {nom: 'Beyblade Battle Tournament - All Star 2026 Edition', affiche: '/images/posters/All star 2026.png',date: '19 Avril 2026',lieu: '150 Rue de Rivoli, 75001 Paris'},
-        {nom: 'Beyblade Battle Tournament - All Star 2025 Edition', affiche: '/images/posters/All star 2025.png',date: '20 Avril 2025',lieu: '150 Rue de Rivoli, 75001 Paris'}
+        {nom: 'Beyblade Battle Tournament - All Star 2026 Edition', affiche: './images/posters/All star 2026.png',date: '19 Avril 2026',lieu: '150 Rue de Rivoli, 75001 Paris'},
+        {nom: 'Beyblade Battle Tournament - All Star 2025 Edition', affiche: './images/posters/All star 2025.png',date: '20 Avril 2025',lieu: '150 Rue de Rivoli, 75001 Paris'}
     ]
 
     let eventPassed=[];
