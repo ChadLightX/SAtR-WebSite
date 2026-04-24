@@ -1,3 +1,6 @@
+/*Fichier React s'occupant du Header. Il contient les liens pour acceder aux principales pages du site web
+  Le logo de l'association, une fois cliquée dessus permettra de se redirigé vers la page d'accueil du site. */
+
 function Header(){
     return(
         <header className="Header">

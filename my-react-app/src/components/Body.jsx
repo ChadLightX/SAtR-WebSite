@@ -1,6 +1,7 @@
 import SAtRPost from './SAtRPost';
 import SAtREvents from './SAtREvents';
-
+/*Fichier React qui s'occupe de l'affichage du contenu du corps de la page d'accueil du site, il contient une galerie, les fonctions d'évènements et de réseaux
+ ainsi que des boutons accedant au serveur discord ou à d'autre pages du site. */
 function Body(){
     return(
         <main className="body-content">

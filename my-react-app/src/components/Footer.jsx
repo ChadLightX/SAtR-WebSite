@@ -1,3 +1,5 @@
+/*Fichier React s'occupant du Footer. Il contient les liens pour acceder aux pages secondaires du site web et ainsi que les réseaux de l'association. */
+
 function Footer(){
     return(
         <footer className='Footer'>
