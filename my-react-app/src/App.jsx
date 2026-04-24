@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <Header/>
       <Body/>
-      <a href=".Header">
+      <a href="#Header">
         <img src="./images/icones/upbutton.png" id="fixedButton" alt="bouton du haut"/>
       </a>
       <Footer/>
