@@ -1,13 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
+* {
+  box-sizing: border-box; /* Empêche le padding de faire grossir tes éléments */
+}
+
 body {
   padding-top: 80px;
   background: linear-gradient(135deg, #A9EDC4, #51E5D4, #FA91F0, #FFA877);
   font-family:'Inter', sans-serif;
   text-align: center;
   margin: 0;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 a{
   text-decoration: none;
+}
+
+img{
+  width: 100%;
+  height: auto;
 }
