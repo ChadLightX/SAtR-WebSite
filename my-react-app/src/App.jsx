@@ -1,22 +1,28 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import ScrollToTop from './components/ScrollToTop.jsx';
 import Header from './components/Header.jsx';
 import Body from './components/Body.jsx';
 import Footer from './components/Footer.jsx';
 import WhoWeAre from './components/WhoWeAre.jsx'
+import CharteGraphique from './components/CharteGraphique.jsx'
+import MentionsLegales from './components/MentionsLegales.jsx'
 import './App.css';
 /*Fichier react coeur du site, il affichera les différentes pages du site web de l'association. */
 function App() {
   return (
     <BrowserRouter>
+    <ScrollToTop/>
       <div id="App">
         <Header/>
-          <Routes>
-            <Route path="/" element={<Body />} />
-            <Route path="/WhoWeAre" element={<WhoWeAre />} />
-          </Routes>
-          <a href="#App">
-            <img src="./images/icones/upbutton.png" id="fixedButton" alt="bouton du haut"/>
-          </a>
+        <Routes>
+          <Route path="/" element={<Body />} />
+          <Route path="/WhoWeAre" element={<WhoWeAre />} />
+          <Route path='/CharteGraphique' element={<CharteGraphique/>}/>
+          <Route path='/MentionsLegales' element={<MentionsLegales/>}/>
+        </Routes>
+        <a href="#App">
+          <img src="./images/icones/upbutton.png" id="fixedButton" alt="bouton du haut"/>
+        </a>
         <Footer/>
       </div>
     </BrowserRouter>

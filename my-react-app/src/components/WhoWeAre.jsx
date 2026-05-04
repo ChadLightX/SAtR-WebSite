@@ -1,4 +1,9 @@
+import { useState } from 'react';
+import { membreData } from './membreData';
+import PageMembre from './PageMembre';
+
 function WhoWeAre(){
+    const [membreActif, setMembreActif] = useState(null);
     return(
         <main id="QuiSommesNous">
             <h1 id="FirstWho">QUI SOMMMES NOUS?</h1>
@@ -7,8 +12,8 @@ function WhoWeAre(){
                 <article>
                     <h2>Fondateur 👔</h2>
                     <div className="FondaCEO">
-                        <img className="imgFonda" src="./images/icones/ceo.png" alt="Shishi"/>
-                        <img className="imgFonda" src="./images/icones/ceo.png" alt="Zeikuo"/>
+                        <img className="imgFonda" src="./images/icones/ceo.png" alt="Shishi" onClick={() => setMembreActif(membreData.shishi)}/>
+                        <img className="imgFonda" src="./images/icones/ceo.png" alt="Zeikuo" onClick={() => setMembreActif(membreData.zeikuo)}/>
                     </div>
                     <div className="FondanameCEO">
                         <strong>Shishi</strong>
@@ -18,15 +23,15 @@ function WhoWeAre(){
                 <article>
                     <h2>Division Parisienne 🗼</h2>
                     <div className="Fondamember">
-                        <img className="imgParis" src="./images/icones/member.png" alt="Younsi"/>
-                        <img className="imgParis" src="./images/icones/member.png" alt="Meiden"/>
-                        <img className="imgParis" src="./images/icones/member.png" alt="Leirya"/>
-                        <img className="imgParis" src="./images/icones/member.png" alt="Berserk"/>
-                        <img className="imgParis" src="./images/icones/member.png" alt="NthanB"/>
+                        <img className="imgParis" src="./images/icones/member.png" alt="Meiden" onClick={() => setMembreActif(membreData.meiden)}/>
+                        <img className="imgParis" src="./images/icones/member.png" alt="Leirya" onClick={() => setMembreActif(membreData.leirya)}/>
+                        <img className="imgParis" src="./images/icones/member.png" alt="Younsi" onClick={() => setMembreActif(membreData.younsi)}/>
+                        <img className="imgParis" src="./images/icones/member.png" alt="Berserk" onClick={() => setMembreActif(membreData.berserk)}/>
+                        <img className="imgParis" src="./images/icones/member.png" alt="NthanB" onClick={() => setMembreActif(membreData.nthanb)}/>
                     </div>
                     <div className="Fondaname">
-                        <strong>Leirya</strong>
                         <strong>Meiden</strong>
+                        <strong>Leirya</strong>
                         <strong>Younsi</strong>
                         <strong>Berserk</strong>
                         <strong>NthanB</strong>
@@ -35,9 +40,9 @@ function WhoWeAre(){
                 <article>
                     <h2>Division Marseillaise 🌴</h2>
                     <div className="Fondamember">
-                        <img className="imgMarseille" src="./images/icones/member.png" alt="Yeggron"/>
-                        <img className="imgMarseille" src="./images/icones/member.png" alt="Xeco"/>
-                        <img className="imgMarseille" src="./images/icones/member.png" alt="Samudec"/>
+                        <img className="imgMarseille" src="./images/icones/member.png" alt="Xeco" onClick={() => setMembreActif(membreData.xeco)}/>
+                        <img className="imgMarseille" src="./images/icones/member.png" alt="Yeggron" onClick={() => setMembreActif(membreData.yeggron)}/>
+                        <img className="imgMarseille" src="./images/icones/member.png" alt="Samudec" onClick={() => setMembreActif(membreData.samudec)}/>
                     </div>
                     <div className="Fondaname">
                         <strong>Xeco</strong>
@@ -58,6 +63,10 @@ function WhoWeAre(){
                     <p><span className="gros-titre">De nombreuses collaborations</span> avec plusieurs acteurs de l’évènementiel comme L’Ultimate Fighting Arena (UFA) ou le Royaume du TCG</p>
                 </div>
             </section>
+            <PageMembre 
+               donneesDuMembre={membreActif} 
+               fermerModal={() => setMembreActif(null)}
+            />
         </main>
     );
 }

@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 /*Fichier React s'occupant du Footer. Il contient les liens pour acceder aux pages secondaires du site web et ainsi que les réseaux de l'association. */
 
 function Footer(){
@@ -5,9 +6,9 @@ function Footer(){
         <footer className='Footer'>
             <div>
                 <nav className='navFootlink'>
-                    <strong>Mentions légales</strong>
+                    <Link to="/MentionsLegales">Mentions légales</Link>
                     <strong>Politique de confidentialité</strong>
-                    <strong>Charte graphique</strong>
+                    <Link to="/CharteGraphique">Charte graphique</Link>
                     <strong>Nous contacter</strong>
                     <strong>FAQ</strong>
                 </nav>
