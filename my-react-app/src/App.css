@@ -187,7 +187,7 @@ button{
   margin-left: 50px;
 }
 
-.Footer .navFootlink a{
+.Footer .navFootlink a, #Bracketlink{
   text-decoration: none;
   color: black;
   font-family: inherit;  
@@ -475,6 +475,9 @@ button{
 
 #big-map a{
   color: black;
+}
+
+#big-map:hover{
   text-decoration: underline;
 }
 
@@ -482,6 +485,10 @@ button{
   display: flex;
   align-items: center;
   margin: 20px;
+}
+
+#Bracketlink:hover{
+  text-decoration: underline;
 }
 
 @media (max-width: 768px) {
