@@ -12,7 +12,7 @@ import './App.css';
 /*Fichier react coeur du site, il affichera les différentes pages du site web de l'association. */
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/SAtR-WebSite/">
     <ScrollToTop/>
       <div id="App">
         <Header/>
