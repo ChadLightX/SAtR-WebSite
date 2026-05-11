@@ -24,9 +24,13 @@ function App() {
           <Route path='/MentionsLegales' element={<MentionsLegales/>}/>
           <Route path='/Confidentialite' element={<Confidentialite/>}/>
         </Routes>
-        <a href="#App">
-          <img src="./images/icones/upbutton.png" id="fixedButton" alt="bouton du haut"/>
-        </a>
+        <img 
+          src="./images/icones/upbutton.png" 
+          id="fixedButton" 
+          alt="bouton du haut"
+          onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+          style={{ cursor: 'pointer' }}
+        />
         <Footer/>
       </div>
     </HashRouter>
