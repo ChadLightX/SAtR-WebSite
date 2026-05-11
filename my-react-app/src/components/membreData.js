@@ -3,9 +3,9 @@ export const membreData={
         pseudo: 'Shishi',
         age: 27,
         beyPref: 'HoverWyvern',
-        role: ['Fondateur', 'Arbitre', 'Main-T.O.'],
-        image: '',
-        description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        role: ['Fondateur', 'Arbitre', 'Main-T.O.', 'Regisseur'],
+        image: './images/photos/shishi.jpg',
+        description:'Co-fondateur de Sun After the Reign, organisateur de tournoi en chef de l`association',
         lieu:'Paris'
     },
 
@@ -15,7 +15,7 @@ export const membreData={
         beyPref: 'GolemRock',
         role: ['Fondateur', 'Arbitre', 'Videaste'],
         image: './images/photos/zeikuo.jpg',
-        description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        description:'Co-fondateur de Sun After the Reign, créateur de contenu pour l`association',
         lieu:'Paris'
     },
 
@@ -23,9 +23,9 @@ export const membreData={
         pseudo: 'Younsi',
         age: 24,
         beyPref: 'SolEclipse',
-        role: ['Organisateur', 'Arbitre', 'Community Manager'],
+        role: ['Organisateur', 'Arbitre', 'Community Manager', 'Infirmier'],
         image: './images/photos/younsi.jpg',
-        description:'C`est le plus beau mais il ne veut pas l`admettre',
+        description:'C`est le plus beau mais il ne veut pas l`admettre, organisateur des déroulés des évènements et responsable médical pour la branche parisienne Sun After the Reign',
         lieu:'Paris'
     },
 
@@ -35,7 +35,7 @@ export const membreData={
         beyPref: 'SharkEdge',
         role: ['Graphiste', 'Arbitre'],
         image: './images/photos/meiden.jpg',
-        description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        description:'La graphiste de la branche parisienne de Sun After the Reign',
         lieu:'Paris'
     },
 
@@ -45,7 +45,7 @@ export const membreData={
         beyPref: 'KnightMail',
         role: ['Référant-inscription', 'Arbitre'],
         image: './images/photos/leirya.jpg',
-        description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        description:'L`arbitre de la branche parisienne Sun After the Reign',
         lieu:'Paris'
     },
 
@@ -55,7 +55,7 @@ export const membreData={
         beyPref: 'DranStrike',
         role: ['Graphiste', 'Arbitre'],
         image: './images/photos/berserk.jpg',
-        description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        description:'Le graphiste et l`illustrateur de la branche parisienne de Sun After the Reign',
         lieu:'Paris'
     },
 
@@ -64,8 +64,8 @@ export const membreData={
         age: 25,
         beyPref: 'HoverWyvern',
         role: ['Animateur-Video', 'Arbitre', 'Monteur-Video'],
-        image: '',
-        description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        image: './images/photos/nthanb.jpg',
+        description:'Vidéaste et monteur de la branche parisienne de Sun After the Reign',
         lieu:'Paris'
     },
 
@@ -75,7 +75,7 @@ export const membreData={
         beyPref: 'WeissTiger',
         role: ['T.O.', 'Arbitre', 'Graphiste'],
         image: './images/photos/yeggron.jpg',
-        description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        description:'Graphiste et organisateur de tournoi en chef pour la branche marseillaise de Sun After the Reign',
         lieu:'Marseille'
     },
 
@@ -85,7 +85,7 @@ export const membreData={
         beyPref: 'ImpactDrake',
         role: ['T.O.', 'Arbitre'],
         image: './images/photos/xeco.jpg',
-        description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        description:'Graphiste et organisateur de tournoi pour la branche marseillaise de Sun After the Reign',
         lieu:'Marseille'
     },
 
@@ -95,7 +95,7 @@ export const membreData={
         beyPref: 'UniconrDelta',
         role: ['T.O.', 'Arbitre'],
         image: './images/photos/Samu.jpg',
-        description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        description:'organisateur de tournoi pour la branche marseillaise de Sun After the Reign',
         lieu:'Marseille'
     }
 };
