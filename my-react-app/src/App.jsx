@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import ScrollToTop from './components/ScrollToTop.jsx';
 import Header from './components/Header.jsx';
 import Body from './components/Body.jsx';
@@ -12,7 +12,7 @@ import './App.css';
 /*Fichier react coeur du site, il affichera les différentes pages du site web de l'association. */
 function App() {
   return (
-    <BrowserRouter basename="/SAtR-WebSite/">
+    <HashRouter>
     <ScrollToTop/>
       <div id="App">
         <Header/>
@@ -29,7 +29,7 @@ function App() {
         </a>
         <Footer/>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
