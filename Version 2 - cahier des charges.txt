@@ -1,0 +1,19 @@
+Version 2 - Site SAtR
+
+Modification du Header -> lien vers la page Qui Sommes nous?
+		       -> lien vers la page Evènements
+
+Modification du Footer -> lien vers la page FAQ
+		       -> lien vers la page Nous contacter
+		       -> lien vers la page Charte graphique
+		       -> lien vers la page Mentions légales
+		       -> lien vers la page Politique de confidentialité
+
+Modification de la responsabilité -> Amélioration de l'UI
+
+Page Qui Sommes nous?
+
+Page Evènements -> regroupe tous les évènements de Sun After the Reign à travers le temps
+		-> Sera divisé en 2 catégories: Les évènements qui arrivent (ils seront tout en haut) et les évènements passés (ils seront tout en bas)
+		-> L'utilisateur aura le choix entre Paris et Marseille, ainsi les évènements ne seront pas les mêmes
+		-> Si l'utilisateur clique sur un évènement, alors une sous page s'affichera avec : les détails de l'évènement, un iframe Google Maps, un lien discord pour s'inscrire, un lien sur le challonge si le tournoi est fini

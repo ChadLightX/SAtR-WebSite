@@ -27,7 +27,7 @@ function PageEvents({ infoEvents, fermerModal }) {
             <li><strong>Date :</strong> {infoEvents.date}</li>
             <li><strong>Nombre de joueurs :</strong> {infoEvents.nbjoueurs}</li>
             <li><strong>Statut :</strong> {infoEvents.estpasse ? "Terminé" : "À venir"}</li>
-            <li><strong>Lien du bracket:</strong></li>
+            <li><a id="Bracketlink" href={infoEvents.bracket} target="blank_">Accédez au bracket</a></li>
             <li><strong>Lieu :</strong> {infoEvents.lieu}</li>
         </ul>
         {/* 🗺️ L'IFRAME OPENSTREETMAP */}
