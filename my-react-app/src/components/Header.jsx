@@ -9,8 +9,8 @@ function Header(){
                 <Link to="/">
                     <img src="./images/icones/SAtR11.png" alt="icone SAtR" width="100" height="50"/>
                 </Link>
-                <Link to="/WhoWeAre">Qui sommes-nous</Link> 
-                <strong className="LinkHead">Prochainement</strong>
+                <Link to="/WhoWeAre">Qui sommes-nous</Link>
+                <Link to="/Evenements">Evenements</Link>  
                 <strong className="LinkHead">Prochainement</strong>
                 <strong className="LinkHead">Prochainement</strong>
             </nav>  

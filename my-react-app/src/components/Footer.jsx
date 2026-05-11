@@ -7,7 +7,7 @@ function Footer(){
             <div>
                 <nav className='navFootlink'>
                     <Link to="/MentionsLegales">Mentions légales</Link>
-                    <strong>Politique de confidentialité</strong>
+                    <Link to="/Confidentialite">Politique de confidentialité</Link>
                     <Link to="/CharteGraphique">Charte graphique</Link>
                     <strong>Nous contacter</strong>
                     <strong>FAQ</strong>

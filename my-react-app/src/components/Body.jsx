@@ -1,8 +1,11 @@
+import { useState } from 'react';
 import SAtRPost from './SAtRPost';
 import SAtREvents from './SAtREvents';
+import PageEvents from './PageEvents.jsx';
 /*Fichier React qui s'occupe de l'affichage du contenu du corps de la page d'accueil du site, il contient une galerie, les fonctions d'évènements et de réseaux
  ainsi que des boutons accedant au serveur discord ou à d'autre pages du site. */
 function Body(){
+    const [eventsActif, setEventsActif] = useState(null);
     return(
         <main className="body-content">
             <section id="FirstTitle">
@@ -28,7 +31,7 @@ function Body(){
 
             <div>
                 <h1 className='TitleSection'>Ne manquez pas nos prochains évènements</h1>
-                <SAtREvents/>
+                <SAtREvents OuvrirModal={setEventsActif} />
             </div>
 
             <h1 className='TitleSection'>Rejoignez la communauté Discord</h1>
@@ -67,6 +70,10 @@ function Body(){
                 <h1 className='TitleSection'>Retrouvez nos derniers posts sur les réseaux</h1>
                 <SAtRPost/>
             </div>
+            <PageEvents 
+               infoEvents={eventsActif} 
+               fermerModal={() => setEventsActif(null)}
+            />
         </main>
     );
 }
