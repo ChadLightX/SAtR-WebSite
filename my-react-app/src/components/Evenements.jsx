@@ -22,7 +22,7 @@ function Evenements(){
 
     return(
         <main id='mainEvent'>
-            <h1>Evenements</h1>
+            <h1>EVENEMENTS</h1>
             <section>
                 <h2>Inscrivez vous à nos prochains évènements!!!</h2>
                 <SAtREvents OuvrirModal={setEventsActif} />

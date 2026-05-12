@@ -304,26 +304,12 @@ button{
   gap: 100px;
 }
 
-.FondanameCEO{
+.membre-card {
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: center; 
+  flex-direction: column;
   align-items: center;
-  gap: 450px;
-}
-
-.Fondaname{
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: center; 
-  align-items: center;
-  gap: 270px;
-}
-
-.Fondaname strong{
-  text-align: center;
+  justify-content: center;
+  gap: 15px; /* L'espace entre l'image et le prénom */
 }
 
 .FondaCEO .imgFonda{
@@ -493,94 +479,169 @@ button{
 
 @media (max-width: 768px) {
 
-  #FirstTitle, .mentions, .graphs{
-    padding-top: 150px;
+  /* 1. ESPACEMENT GLOBAL (Empêche le Header de cacher le titre) */
+  main, #QuiSommesNous, #FirstTitle, .mentions, .graphs, .confidence, #mainEvent h1 {
+    padding-top: 30px !important;
   }
 
-  #Header{
+  /* 2. LE HEADER (Menu scrollable au doigt de gauche à droite) */
+  #Header {
     padding: 15px;
   }
+  #Header nav {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto; /* Active le scroll horizontal */
+    justify-content: flex-start;
+    gap: 20px;
+    padding-bottom: 5px;
+  }
+  /* On cache la barre de défilement pour faire plus joli */
+  #Header nav::-webkit-scrollbar {
+    display: none; 
+  }
+  #Header nav a img {
+    width: 80px; /* Logo un peu plus compact */
+  }
 
-  #Header nav{
-    flex-direction: column;
-    justify-content: center;
-    gap: 10px;
+/* 3. LES CARTES ÉVÈNEMENTS (2 par ligne - Plus aérées) */
+  .listEvents {
+    gap: 20px; /* On double l'espace entre les colonnes (avant c'était 10px) */
+    padding: 15px; /* On aère aussi un peu plus près des bords de l'écran */
   }
   
-  #fixedButton{
-    visibility: hidden;
+  .event {
+    margin: 0; 
+    padding: 10px; 
+    width: calc(50% - 25px); /* On rabote la largeur pour laisser plus de place au gap ! */
+    max-width: none; 
+  }
+  
+  .event img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    border-radius: 10px;
+  }
+  
+  /* 📏 Ajustement des textes pour les mini-cartes */
+  .event h3 {
+    font-size: 0.9em;
+    margin: 10px 0;
+  }
+  
+  .event p {
+    font-size: 0.8em;
+    margin: 5px 0;
+  }
+  
+  /* 🔘 Ajustement du bouton de la modale */
+  #ButtonEvent {
+    width: 100%; /* Le bouton s'étire sur toute la largeur de sa petite carte */
+    margin: 10px 0 0 0; 
+    padding: 8px 5px;
+    font-size: 0.75em; /* Texte plus petit pour ne pas casser le bouton */
   }
 
+  .filterPad {
+    flex-wrap: wrap; /* Les boutons de tri ne sortent plus de l'écran */
+  }
+
+  #QuiSommesNous{
+    padding-top: 20px;
+  }
+
+  #FirstWho{
+    padding: 10px;
+  }
+
+  #QuiSommesNous section{
+    padding: 30px;
+  }
+
+  #QuiSommesNous section h1{
+    padding: 30px;
+  }
+
+  #Membre article{
+    padding: 30px;
+  }
+
+  #Membre article h2{
+    padding: 20px;
+  }
+
+  
+  .FondaCEO, .Fondamember {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .imgParis, .imgMarseille {
+    width: 250px;
+    height: auto;
+  }
+
+  .FondaCEO .imgFonda {
+    width: 300px;
+    height: auto;
+  }
+
+  /* 5. SECTIONS GÉNÉRALES */
+  #fixedButton {
+    visibility: hidden; /* On cache le bouton remonter qui gêne sur mobile */
+  }
   .core {
     height: auto;
     padding: 15px;
   }
-
-  .core section{
+  .core section {
     flex-direction: column;
     margin: 0px;
   }
-
-  .core section p{
-    justify-content: center;
+  .core section p {
+    text-align: center;
   }
-
-  .toupie{
+  .toupie {
     width: 150px;
   }
-
   .TitleSection {
-    padding-top: 50px;
+    padding-top: 40px;
     padding-bottom: 10px;
   }
 
-  .event{
-    margin: 10px auto; 
-    padding: 10px;
-    max-width: 200px;
-  }
-
-  .event img{
-    width: 150px;
-    height: 150px;
-  }
-
-  .Footer {
+  /* 7. LES VIDÉOS YOUTUBE */
+  .Network {
+    flex-direction: column; /* On empile les vidéos l'une sous l'autre */
+    gap: 20px; /* Espace entre les deux vidéos */
+    width: 100%;
     padding: 15px;
+  }
+
+  .ytb, .ytb > div {
+    width: 100% !important;
+    margin: 0 !important;
+  }
+
+  /* 6. LE FOOTER (On empile joliment) */
+  .Footer {
+    padding: 20px;
   }  
-
-  .Footer div{
+  .Footer div {
     flex-direction: column;
-    justify-content: center;
-    gap: 20px;
+    gap: 30px;
   }
-
-  .Footer .navFootlink{
-    flex-direction: row;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    margin: 0px;
-    
-  }
-
-  .Footer .navFootlink strong{
-    font-size: small;
-  }
-
-  .Footer .navFoot{
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
+  .Footer .navFootlink {
+    flex-direction: column; /* Liens les uns sous les autres */
+    gap: 15px;
     margin: 0px;
   }
-
-  .Footer p{
-    font-size: small;
+  .Footer .navFoot {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin: 0px;
   }
-
   .Neticon {
     width: 40px;
     height: 40px;

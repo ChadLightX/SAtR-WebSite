@@ -6,51 +6,69 @@ function WhoWeAre(){
     const [membreActif, setMembreActif] = useState(null);
     return(
         <main id="QuiSommesNous">
-            <h1 id="FirstWho">QUI SOMMMES NOUS?</h1>
+            <h1 id="FirstWho">QUI SOMMES NOUS?</h1>
             <section id="Membre">
                 <h1>Découvrez nos membres</h1>
+                
                 <article>
                     <h2>Fondateur 👔</h2>
                     <div className="FondaCEO">
-                        <img className="imgFonda" src="./images/icones/ceo.png" alt="Shishi" onClick={() => setMembreActif(membreData.shishi)}/>
-                        <img className="imgFonda" src="./images/icones/ceo.png" alt="Zeikuo" onClick={() => setMembreActif(membreData.zeikuo)}/>
-                    </div>
-                    <div className="FondanameCEO">
-                        <strong>Shishi</strong>
-                        <strong>Zeikuo</strong>
+                        <div className="membre-card">
+                            <img className="imgFonda" src="./images/icones/ceo.png" alt="Shishi" onClick={() => setMembreActif(membreData.shishi)}/>
+                            <strong>Shishi</strong>
+                        </div>
+                        <div className="membre-card">
+                            <img className="imgFonda" src="./images/icones/ceo.png" alt="Zeikuo" onClick={() => setMembreActif(membreData.zeikuo)}/>
+                            <strong>Zeikuo</strong>
+                        </div>
                     </div>
                 </article>
+
                 <article>
                     <h2>Division Parisienne 🗼</h2>
                     <div className="Fondamember">
-                        <img className="imgParis" src="./images/icones/member.png" alt="Meiden" onClick={() => setMembreActif(membreData.meiden)}/>
-                        <img className="imgParis" src="./images/icones/member.png" alt="Leirya" onClick={() => setMembreActif(membreData.leirya)}/>
-                        <img className="imgParis" src="./images/icones/member.png" alt="Younsi" onClick={() => setMembreActif(membreData.younsi)}/>
-                        <img className="imgParis" src="./images/icones/member.png" alt="Berserk" onClick={() => setMembreActif(membreData.berserk)}/>
-                        <img className="imgParis" src="./images/icones/member.png" alt="NthanB" onClick={() => setMembreActif(membreData.nthanb)}/>
-                    </div>
-                    <div className="Fondaname">
-                        <strong>Meiden</strong>
-                        <strong>Leirya</strong>
-                        <strong>Younsi</strong>
-                        <strong>Berserk</strong>
-                        <strong>NthanB</strong>
+                        <div className="membre-card">
+                            <img className="imgParis" src="./images/icones/member.png" alt="Meiden" onClick={() => setMembreActif(membreData.meiden)}/>
+                            <strong>Meiden</strong>
+                        </div>
+                        <div className="membre-card">
+                            <img className="imgParis" src="./images/icones/member.png" alt="Leirya" onClick={() => setMembreActif(membreData.leirya)}/>
+                            <strong>Leirya</strong>
+                        </div>
+                        <div className="membre-card">
+                            <img className="imgParis" src="./images/icones/member.png" alt="Younsi" onClick={() => setMembreActif(membreData.younsi)}/>
+                            <strong>Younsi</strong>
+                        </div>
+                        <div className="membre-card">
+                            <img className="imgParis" src="./images/icones/member.png" alt="Berserk" onClick={() => setMembreActif(membreData.berserk)}/>
+                            <strong>Berserk</strong>
+                        </div>
+                        <div className="membre-card">
+                            <img className="imgParis" src="./images/icones/member.png" alt="NthanB" onClick={() => setMembreActif(membreData.nthanb)}/>
+                            <strong>NthanB</strong>
+                        </div>
                     </div>
                 </article>
+
                 <article>
                     <h2>Division Marseillaise 🌴</h2>
                     <div className="Fondamember">
-                        <img className="imgMarseille" src="./images/icones/member.png" alt="Xeco" onClick={() => setMembreActif(membreData.xeco)}/>
-                        <img className="imgMarseille" src="./images/icones/member.png" alt="Yeggron" onClick={() => setMembreActif(membreData.yeggron)}/>
-                        <img className="imgMarseille" src="./images/icones/member.png" alt="Samudec" onClick={() => setMembreActif(membreData.samudec)}/>
-                    </div>
-                    <div className="Fondaname">
-                        <strong>Xeco</strong>
-                        <strong>Yeggron</strong>
-                        <strong>Samudec</strong>
+                        <div className="membre-card">
+                            <img className="imgMarseille" src="./images/icones/member.png" alt="Xeco" onClick={() => setMembreActif(membreData.xeco)}/>
+                            <strong>Xeco</strong>
+                        </div>
+                        <div className="membre-card">
+                            <img className="imgMarseille" src="./images/icones/member.png" alt="Yeggron" onClick={() => setMembreActif(membreData.yeggron)}/>
+                            <strong>Yeggron</strong>
+                        </div>
+                        <div className="membre-card">
+                            <img className="imgMarseille" src="./images/icones/member.png" alt="Samudec" onClick={() => setMembreActif(membreData.samudec)}/>
+                            <strong>Samudec</strong>
+                        </div>
                     </div>
                 </article>
             </section>
+
             <section>
                 <h1>SAtR c'est:</h1>
                 <div id="Stats">
@@ -63,6 +81,7 @@ function WhoWeAre(){
                     <p><span className="gros-titre">De nombreuses collaborations</span> avec plusieurs acteurs de l’évènementiel comme L’Ultimate Fighting Arena (UFA) ou le Royaume du TCG</p>
                 </div>
             </section>
+            
             <PageMembre 
                donneesDuMembre={membreActif} 
                fermerModal={() => setMembreActif(null)}
